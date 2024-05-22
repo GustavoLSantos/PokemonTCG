@@ -1,5 +1,6 @@
 # Pokémon TCG Web App 🎮✨
-![toppokemonpage](https://github.com/GustavoLSantos/PokemonTCG/assets/28766048/67b109a4-350e-4763-a045-0320a165fa27)
+![toppokemonpage](https://github.com/GustavoLSantos/PokemonTCG/assets/28766048/9c8dcc9d-ad4e-4741-8d42-f6f2e8ddc9a0)
+
 Olá! Bem-vindo ao meu projeto Pokémon TCG Web App. Esta aplicação é uma vitrine das cartas Pokémon TCG, construída com muito carinho e utilizando ReactJS. Vamos explorar as funcionalidades incríveis que implementei!
 
 
