@@ -1,15 +1,32 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { useNavigate } from "react-router-dom";
+import {
+  CardContainer,
+  CardImage,
+  CardTitle,
+  CardInfo,
+} from './Card.styles';
+import Tilt from 'react-parallax-tilt';
 
-const Card = ({ card }) => (
-  <div className="card">
-    <Link to={`/card/${card.id}`}>
-      <img src={card.images.small} alt={card.name} />
-      <h3>{card.name}</h3>
-      <p>ID: {card.id}</p>
-      <p>Type: {card.types.join(', ')}</p>
-    </Link>
-  </div>
-);
+const Card = ({ card }) => {
+  const navigate = useNavigate();
+
+  const handleNavigate = () => {
+    navigate(`/card/${card.id}`)
+  }
+
+  return (
+    <CardContainer onClick={handleNavigate}>
+        <Tilt>
+          <CardImage src={card.images.small} alt={card.name} />
+        </Tilt>
+        <CardTitle>{card.name}</CardTitle>
+        <CardInfo>ID: {card.id}</CardInfo>
+        <CardInfo>Type: {card.types.join(', ')}</CardInfo>
+    </CardContainer>
+  );
+
+}
+
 
 export default Card;
