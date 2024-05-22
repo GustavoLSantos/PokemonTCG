@@ -1,27 +1,26 @@
 # Pokémon TCG Web App 🎮✨
 ![toppokemonpage](https://github.com/GustavoLSantos/PokemonTCG/assets/28766048/9c8dcc9d-ad4e-4741-8d42-f6f2e8ddc9a0)
 
-Olá! Bem-vindo ao meu projeto Pokémon TCG Web App. Esta aplicação é uma vitrine das cartas Pokémon TCG, construída com muito carinho e utilizando ReactJS. Vamos explorar as funcionalidades incríveis que implementei!
+Hello! Welcome to my Pokémon TCG Web App project. This application is a showcase of Pokémon TCG cards, built with great care and using ReactJS. Let's explore the amazing features I've implemented!
 
+## 🚀 Project Objective
 
-## 🚀 Objetivo do Projeto
+The goal is to create a responsive and mobile-first web app that consumes the Pokémon TCG API, displaying the cards in an organized manner and allowing users to view details of each card.
 
-O objetivo é criar um web app responsivo e mobile-first que consome a API Pokémon TCG, exibindo as cartas de forma organizada e permitindo visualizar detalhes de cada uma.
+## 🎯 Features
 
-## 🎯 Funcionalidades
+### Home Page
+- **Grid View (Desktop) / Carousel (Mobile)**: Card image, Pokémon name, ID, and type(s).
+- **Search by Name**: Easily find your favorite cards.
+- **Navigation**: Click on a card to see more details.
 
-### Página Inicial
-- **Visão em Grade (Desktop) / Carrossel (Mobile)**: Imagem da carta, nome do Pokémon, ID e tipo(s).
-- **Busca por Nome**: Encontre suas cartas favoritas facilmente.
-- **Navegação**: Clique em uma carta para ver mais detalhes.
+### Details Page
+- **Detailed Information**: High-definition image, name, ID, type(s), resistances, weaknesses, and attacks.
 
-### Página de Detalhes
-- **Informações Detalhadas**: Imagem em alta definição, nome, ID, tipo(s), resistência(s), fraqueza(s) e ataques.
+### Attack Details Modal
+- **Attack Information**: Mana cost, name, damage, and description.
 
-### Modal de Detalhes do Ataque
-- **Informações do Ataque**: Custo de Mana, nome, dano e descrição.
-
-## 🛠️ Tecnologias Utilizadas
+## 🛠️ Technologies Used
 
 - ReactJS
 - Redux
@@ -32,34 +31,38 @@ O objetivo é criar um web app responsivo e mobile-first que consome a API Poké
 - Cypress
 - Jest
 
-## 📦 Estrutura do Projeto
+## 📦 Project Structure
 
-Estrutura organizada e fácil de navegar. Você pode conferir o projeto em [Pokémon TCG Web App](https://pokemon-tcg-lilac.vercel.app/).
+Organized and easy-to-navigate structure. You can check out the project at [Pokémon TCG Web App](https://pokemon-tcg-lilac.vercel.app/).
 
-## 📋 Instruções de Configuração
+## 📋 Setup Instructions
 
-### Pré-requisitos
-- Node.js (versão LTS recomendada)
-- npm ou yarn
+### Prerequisites
+- Node.js (LTS version recommended)
+- npm or yarn
 
-### Instalação
-1. Clone o repositório:
+### Installation
+1. Clone the repository:
    ```bash
-   git clone https://github.com/seu-usuario/pokemon-tcg-app.git
+   git clone https://github.com/your-username/pokemon-tcg-app.git
    cd pokemon-tcg-app
-2. Instale as dependências
+   ```
+2. Install dependencies:
    ```bash
-    npm install
-    ```
-3. Execute o projeto
+   npm install
+   ```
+3. Run the project:
    ```bash
    npm start
    ```
-## 🌟 Contribuição
-Adoraria receber suas contribuições! Sinta-se à vontade para abrir issues e pull requests. Vamos construir algo incrível juntos!
+
+## 🌟 Contribution
+I would love to receive your contributions! Feel free to open issues and pull requests. Let's build something amazing together!
 
 ---
-Feito com ❤️ por Gustavo Lira
----
-Obrigado por conferir meu projeto! Boa sorte, treinador! 🚀
+
+Made with ❤️ by Gustavo Lira
+
+Thank you for checking out my project! Good luck, trainer! 🚀
+
 
