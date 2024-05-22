@@ -55,12 +55,42 @@ $font-family: "Montserrat", sans-serif;
       }
     }
   }
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    padding: 5%;
+
+    .CardImage {
+      margin: 20px 0;
+    }
+
+    .CardInfo {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .CardStats {
+      align-items: center;
+    }
+
+    .CardData {
+      width: 100%;
+    }
+  }
 }
 
 .BackButtonContainer {
   padding: 0 20%;
+
+  @media (max-width: 768px) {
+    padding: 0 5%;
+  }
 }
 
 .CardData {
   width: 50%;
+
+  @media (max-width: 768px) {
+    width: 100%;
+  }
 }
