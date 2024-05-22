@@ -5,7 +5,7 @@ const API_URL = 'https://api.pokemontcg.io/v2/cards';
 export const getPokemonCards = async () => {
   try {
     const response = await axios.get(API_URL, {
-      params: { pageSize: 100 } // Ajustar conforme necessário
+      params: { pageSize: 100 }
     });
     return response.data;
   } catch (error) {

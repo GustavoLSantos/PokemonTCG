@@ -1,0 +1,18 @@
+{
+    "loading": "Loading...",
+    "search_placeholder": "Search Pokemon",
+    "error_loading_cards": "Error loading cards: {{error}}",
+    "no_image_available": "No image available",
+    "attacks": "Attacks",
+    "no_attacks_available": "No attacks available",
+    "attack_details": "Attack Details",
+    "name": "Name",
+    "cost": "Cost",
+    "damage": "Damage",
+    "description": "Description",
+    "close": "Close",
+    "resistances": "Resistances",
+    "weaknesses": "Weaknesses",
+    "none": "None",
+    "id": "ID"
+  }

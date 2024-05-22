@@ -1,0 +1,31 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+.HomePageContainer {
+  padding: 20px;
+  font-family: "Montserrat", sans-serif;
+
+  .SearchInput {
+    width: 99%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    background-color: #DBDBDB;
+    border: 1px solid #DBDBDB;
+    font-family: "Montserrat", sans-serif;
+    border-radius: 12px;
+  }
+
+  .CardGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .slick-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

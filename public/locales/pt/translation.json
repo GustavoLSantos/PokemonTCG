@@ -1,0 +1,19 @@
+{
+    "loading": "Carregando...",
+    "search_placeholder": "Procurar Pokémon",
+    "error_loading_cards": "Erro ao carregar cartas: {{error}}",
+    "no_image_available": "Sem imagem disponível",
+    "attacks": "Ataques",
+    "no_attacks_available": "Sem ataques disponíveis",
+    "attack_details": "Detalhes do Ataque",
+    "name": "Nome",
+    "cost": "Custo",
+    "damage": "Dano",
+    "description": "Descrição",
+    "close": "Fechar",
+    "resistances": "Resistências",
+    "weaknesses": "Fraquezas",
+    "none": "Nenhuma",
+    "id": "ID"
+  }
+  

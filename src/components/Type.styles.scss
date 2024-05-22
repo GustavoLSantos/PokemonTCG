@@ -1,0 +1,41 @@
+$type-colors: (
+  fire: #FD7D24,
+  water: #4592C4,
+  grass: #9BCC50,
+  lightning: #EED535,
+  ice: #51C4E7,
+  fighting: #D56723,
+  poison: #B97FC9,
+  ground: #F7DE3F,
+  flying: #3DC7EF,
+  psychic: #F366B9,
+  bug: #729F3F,
+  rock: #A38C21,
+  ghost: #7B62A3,
+  dragon: #F16E57,
+  darkness: #707070,
+  metal: #9EB7B8,
+  fairy: #FDB9E9,
+  colorless: #A4ACAF
+);
+
+@each $type, $color in $type-colors {
+    .#{$type} {
+      background-color: $color;
+      @if $type == lightning {
+        color: white;
+      }
+    }
+  }
+.TypeContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+}
+
+.TypeSpace {
+  border-radius: 4px;
+  width: 40%;
+  min-width: 80px;
+}

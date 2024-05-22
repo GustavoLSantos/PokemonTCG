@@ -1,0 +1,66 @@
+$font-family: "Montserrat", sans-serif;
+
+.CardDetailsContainer {
+  padding: 5% 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  font-family: $font-family;
+
+  .CardImage {
+    max-width: 300px;
+    border-radius: 8px;
+    margin: 20px;
+  }
+
+  .CardName {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+
+  .CardInfo {
+    font-size: 1rem;
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .CardStats {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+
+    .StrongText {
+      margin-right: 15px;
+    }
+  }
+
+  .AttackList {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+    width: 100%;
+
+    .AttackItem {
+      border-radius: 12px;
+      background-color: #ccc;
+      padding: 10px;
+      margin: 10px 0;
+      cursor: pointer;
+
+      &:hover {
+        background-color: #e8e8e8;
+      }
+    }
+  }
+}
+
+.BackButtonContainer {
+  padding: 0 20%;
+}
+
+.CardData {
+  width: 50%;
+}
