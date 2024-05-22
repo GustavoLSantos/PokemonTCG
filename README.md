@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# Pokémon TCG Web App 🎮✨
+![toppokemonpage](https://github.com/GustavoLSantos/PokemonTCG/assets/28766048/67b109a4-350e-4763-a045-0320a165fa27)
+Olá! Bem-vindo ao meu projeto Pokémon TCG Web App. Esta aplicação é uma vitrine das cartas Pokémon TCG, construída com muito carinho e utilizando ReactJS. Vamos explorar as funcionalidades incríveis que implementei!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## 🚀 Objetivo do Projeto
 
-In the project directory, you can run:
+O objetivo é criar um web app responsivo e mobile-first que consome a API Pokémon TCG, exibindo as cartas de forma organizada e permitindo visualizar detalhes de cada uma.
 
-### `npm start`
+## 🎯 Funcionalidades
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Página Inicial
+- **Visão em Grade (Desktop) / Carrossel (Mobile)**: Imagem da carta, nome do Pokémon, ID e tipo(s).
+- **Busca por Nome**: Encontre suas cartas favoritas facilmente.
+- **Navegação**: Clique em uma carta para ver mais detalhes.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Página de Detalhes
+- **Informações Detalhadas**: Imagem em alta definição, nome, ID, tipo(s), resistência(s), fraqueza(s) e ataques.
 
-### `npm test`
+### Modal de Detalhes do Ataque
+- **Informações do Ataque**: Custo de Mana, nome, dano e descrição.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠️ Tecnologias Utilizadas
 
-### `npm run build`
+- ReactJS
+- Redux
+- react-i18next
+- Axios
+- react-slick
+- SASS
+- Cypress
+- Jest
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📦 Estrutura do Projeto
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Estrutura organizada e fácil de navegar. Você pode conferir o projeto em [Pokémon TCG Web App](https://pokemon-tcg-lilac.vercel.app/).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📋 Instruções de Configuração
 
-### `npm run eject`
+### Pré-requisitos
+- Node.js (versão LTS recomendada)
+- npm ou yarn
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Instalação
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/pokemon-tcg-app.git
+   cd pokemon-tcg-app
+2. Instale as dependências
+   ```bash
+    npm install
+    ```
+3. Execute o projeto
+   ```bash
+   npm start
+   ```
+## 🌟 Contribuição
+Adoraria receber suas contribuições! Sinta-se à vontade para abrir issues e pull requests. Vamos construir algo incrível juntos!
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
+Feito com ❤️ por Gustavo Lira
+---
+Obrigado por conferir meu projeto! Boa sorte, treinador! 🚀
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
