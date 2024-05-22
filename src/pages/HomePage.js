@@ -20,9 +20,11 @@ const HomePage = () => {
     dispatch(fetchCards());
   }, [dispatch]);
 
-  const filteredCards = cards.filter(card =>
-    card.name.toLowerCase().includes(searchTerm.toLowerCase())
-  );
+  const filteredCards = cards
+    .filter(card =>
+      card.name.toLowerCase().includes(searchTerm.toLowerCase())
+    )
+    .sort((a, b) => a.name.localeCompare(b.name));
 
   if (loading) return <LoadingSpinner />;
   if (error) return <p>{t('error_loading_cards', { error: error.message })}</p>;
